@@ -1,0 +1,358 @@
+{
+    "mockup": {
+        "controls": {
+            "control": [{
+                "ID": "2",
+                "h": "801",
+                "measuredH": "70",
+                "measuredW": "100",
+                "properties": {
+                    "color": "39242"
+                },
+                "typeID": "Canvas",
+                "w": "212",
+                "x": "6",
+                "y": "39",
+                "zOrder": "0"
+            }, {
+                "ID": "3",
+                "h": "800",
+                "measuredH": "182",
+                "measuredW": "200",
+                "properties": {
+                    "backgroundAlpha": "1",
+                    "borderStyle": "square",
+                    "hrefs": {
+                        "href": [{}, {}, {}, {}]
+                    },
+                    "selectedIndex": "3",
+                    "text": "Quan ly doi tac\n \tDanh sach doi tac\n\tCap han muc doi tac\n\tHoa hồng đối tác"
+                },
+                "typeID": "VerticalTabBar",
+                "w": "1200",
+                "x": "14",
+                "y": "39",
+                "zOrder": "1"
+            }, {
+                "ID": "45",
+                "h": "81",
+                "measuredH": "111",
+                "measuredW": "761",
+                "properties": {
+                    "text": "STT,Ngày,Tên giao dịch,ID đối tác,CN/PGD,loại dịch vụ,hoa hồng, Chi tiết\n1,dd/mm/yyyy,ABC,123,Tinh\\,TPHCM,PB\\,PO,hạn mức\\,Cố định, [Xem]\n2,dd/mm/yyyy,DEF,125,Tinh,PO\\,PR\\,AD\\,PB,hạn mức\\,cố định\\,phí người gửi\\,doanh số, [Xem]\n \n{0,0,0,0,0,0,0,0}"
+                },
+                "typeID": "DataGrid",
+                "w": "750",
+                "x": "225",
+                "y": "145",
+                "zOrder": "2"
+            }, {
+                "ID": "46",
+                "h": "225",
+                "measuredH": "231",
+                "measuredW": "666",
+                "properties": {
+                    "text": "stt,Ngày,Tên giao dịch,ID đối tác,CN/PGD,loại dịch vụ,hoa hồng,trang thai,hanh dong\n1,dd/mm/yyyy,ABC,123,TPHCM,PB,hạn mức,đã duyệt\n2,dd/mm/yyyy,ABC,123,TPHCM,PO,Cố định,chưa duyệt\n3,dd/mm/yyyy,ABC,123,Tinh,PO,hạn mức,chưa duyệt\n4,dd/mm/yyyy,ABC,123,Tinh,PR,cố định,chưa duyệt\n5,dd/mm/yyyy,ABC,123,Tinh,AD,phí người gửi,chưa duyệt\n6,dd/mm/yyyy,ABC,123,Tinh,PB,doanh số,chưa duyêt\n \n{0,0,0,0,0,0,0,0,20}"
+                },
+                "typeID": "DataGrid",
+                "w": "686",
+                "x": "232",
+                "y": "321",
+                "zOrder": "3"
+            }, {
+                "ID": "47",
+                "measuredH": "21",
+                "measuredW": "41",
+                "properties": {
+                    "text": "Chi tiết"
+                },
+                "typeID": "Label",
+                "x": "225",
+                "y": "268",
+                "zOrder": "4"
+            }, {
+                "ID": "48",
+                "h": "116",
+                "measuredH": "115",
+                "measuredW": "232",
+                "properties": {
+                    "backgroundAlpha": "0.5",
+                    "color": "105804",
+                    "curvature": "0",
+                    "direction": "bottom",
+                    "leftArrow": "false",
+                    "p0": {
+                        "x": 232,
+                        "y": 0
+                    },
+                    "p1": {
+                        "x": 0.49999999999999994,
+                        "y": 0
+                    },
+                    "p2": {
+                        "x": 0,
+                        "y": 115
+                    },
+                    "shape": "bezier",
+                    "stroke": "dashed",
+                    "text": ""
+                },
+                "typeID": "Arrow",
+                "w": "233",
+                "x": "685",
+                "y": "183",
+                "zOrder": "5"
+            }, {
+                "ID": "49",
+                "measuredH": "10",
+                "measuredW": "100",
+                "typeID": "HRule",
+                "w": "693",
+                "x": "225",
+                "y": "93",
+                "zOrder": "6"
+            }, {
+                "ID": "50",
+                "measuredH": "27",
+                "measuredW": "303",
+                "properties": {
+                    "text": "Danh sách hoa hồng đối tác"
+                },
+                "typeID": "SubTitle",
+                "x": "225",
+                "y": "55",
+                "zOrder": "7"
+            }, {
+                "ID": "51",
+                "measuredH": "25",
+                "measuredW": "120",
+                "properties": {
+                    "text": "doi tac"
+                },
+                "typeID": "SearchBox",
+                "w": "178",
+                "x": "797",
+                "y": "111",
+                "zOrder": "8"
+            }, {
+                "ID": "54",
+                "measuredH": "10",
+                "measuredW": "100",
+                "typeID": "HRule",
+                "w": "634",
+                "x": "223",
+                "y": "283",
+                "zOrder": "9"
+            }, {
+                "ID": "55",
+                "measuredH": "27",
+                "measuredW": "62",
+                "properties": {
+                    "color": "105804",
+                    "text": "Duyệt "
+                },
+                "typeID": "Button",
+                "x": "781",
+                "y": "378",
+                "zOrder": "10"
+            }, {
+                "ID": "56",
+                "measuredH": "27",
+                "measuredW": "65",
+                "properties": {
+                    "color": "15900954",
+                    "text": "Tu choi"
+                },
+                "typeID": "Button",
+                "x": "843",
+                "y": "378",
+                "zOrder": "11"
+            }, {
+                "ID": "58",
+                "measuredH": "27",
+                "measuredW": "62",
+                "properties": {
+                    "color": "105804",
+                    "text": "Duyệt "
+                },
+                "typeID": "Button",
+                "x": "781",
+                "y": "405",
+                "zOrder": "12"
+            }, {
+                "ID": "59",
+                "measuredH": "27",
+                "measuredW": "65",
+                "properties": {
+                    "color": "15900954",
+                    "text": "Tu choi"
+                },
+                "typeID": "Button",
+                "x": "843",
+                "y": "405",
+                "zOrder": "13"
+            }, {
+                "ID": "60",
+                "measuredH": "27",
+                "measuredW": "62",
+                "properties": {
+                    "color": "105804",
+                    "text": "Duyệt "
+                },
+                "typeID": "Button",
+                "x": "782",
+                "y": "433",
+                "zOrder": "14"
+            }, {
+                "ID": "61",
+                "measuredH": "27",
+                "measuredW": "65",
+                "properties": {
+                    "color": "15900954",
+                    "text": "Tu choi"
+                },
+                "typeID": "Button",
+                "x": "844",
+                "y": "433",
+                "zOrder": "15"
+            }, {
+                "ID": "62",
+                "measuredH": "27",
+                "measuredW": "62",
+                "properties": {
+                    "color": "105804",
+                    "text": "Duyệt "
+                },
+                "typeID": "Button",
+                "x": "782",
+                "y": "460",
+                "zOrder": "16"
+            }, {
+                "ID": "63",
+                "measuredH": "27",
+                "measuredW": "65",
+                "properties": {
+                    "color": "15900954",
+                    "text": "Tu choi"
+                },
+                "typeID": "Button",
+                "x": "844",
+                "y": "460",
+                "zOrder": "17"
+            }, {
+                "ID": "64",
+                "measuredH": "27",
+                "measuredW": "62",
+                "properties": {
+                    "color": "105804",
+                    "text": "Duyệt "
+                },
+                "typeID": "Button",
+                "x": "782",
+                "y": "487",
+                "zOrder": "18"
+            }, {
+                "ID": "65",
+                "measuredH": "27",
+                "measuredW": "65",
+                "properties": {
+                    "color": "15900954",
+                    "text": "Tu choi"
+                },
+                "typeID": "Button",
+                "x": "844",
+                "y": "487",
+                "zOrder": "19"
+            }, {
+                "ID": "66",
+                "measuredH": "170",
+                "measuredW": "200",
+                "properties": {
+                    "text": "Form Từ chối"
+                },
+                "typeID": "FieldSet",
+                "x": "753",
+                "y": "605",
+                "zOrder": "20"
+            }, {
+                "ID": "67",
+                "h": "106",
+                "measuredH": "140",
+                "measuredW": "200",
+                "properties": {
+                    "text": "Lý do"
+                },
+                "typeID": "TextArea",
+                "w": "173",
+                "x": "772",
+                "y": "627",
+                "zOrder": "21"
+            }, {
+                "ID": "68",
+                "h": "27",
+                "measuredH": "27",
+                "measuredW": "44",
+                "properties": {
+                    "color": "105804",
+                    "text": "Gửi"
+                },
+                "typeID": "Button",
+                "w": "65",
+                "x": "800",
+                "y": "742",
+                "zOrder": "22"
+            }, {
+                "ID": "69",
+                "h": "27",
+                "measuredH": "27",
+                "measuredW": "47",
+                "properties": {
+                    "color": "13576743",
+                    "text": "Hủy"
+                },
+                "typeID": "Button",
+                "w": "65",
+                "x": "867",
+                "y": "742",
+                "zOrder": "23"
+            }, {
+                "ID": "70",
+                "h": "89",
+                "measuredH": "88",
+                "measuredW": "60",
+                "properties": {
+                    "backgroundAlpha": "0.5",
+                    "color": "105804",
+                    "curvature": "0",
+                    "direction": "bottom",
+                    "leftArrow": "false",
+                    "p0": {
+                        "x": 60,
+                        "y": 0
+                    },
+                    "p1": {
+                        "x": 0.4999999999999999,
+                        "y": 0
+                    },
+                    "p2": {
+                        "x": 0,
+                        "y": 88
+                    },
+                    "shape": "bezier",
+                    "stroke": "dashed",
+                    "text": ""
+                },
+                "typeID": "Arrow",
+                "w": "61",
+                "x": "808",
+                "y": "508",
+                "zOrder": "24"
+            }]
+        },
+        "measuredH": "840",
+        "measuredW": "1214",
+        "mockupH": "801",
+        "mockupW": "1208",
+        "version": "1.0"
+    }
+}
