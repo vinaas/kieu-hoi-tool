@@ -1,12 +1,6 @@
 # kieu-hoi-tool
-## install
-`npm i`
-## use
-
-```json
-var htmlConvertor = new HtmlTableConvertor({
-    "jsonPath": "data.json"
-});
-
-htmlConvertor.loadData().normalizeJsonData().tofiles().write();
-```
+## Các bước dùng (yêu cầu đã cài [nodejs](https://nodejs.org/en/) )
+- Cài đặt `npm install`
+- Copy file data.json vào thư mục gốc
+- Chạy cmd npm `run start`
+- sau khi chay cmd sinh ra các file table bootstrap trong thư mục `/out`
