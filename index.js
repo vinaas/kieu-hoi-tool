@@ -47,7 +47,7 @@ HtmlTableConvertor.prototype.write = function () {
             file.body.forEach(function (tr, i, a) {
                 var strtd = '';
                 tr.split(',').forEach(function (td, i, a) {
-                    strtd += `<td>${td}</td>
+                    strtd += `<td class="v-align-middle">${td}</td>
                     `
                 })
                 strBody += ` <tr>${strtd}</tr>
